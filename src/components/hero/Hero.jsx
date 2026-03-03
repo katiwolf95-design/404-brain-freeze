@@ -1,9 +1,11 @@
-function Hero({ title, subtitle, ctaText }) {
+import HeroContent from "./HeroContent";
+import HeroFeatures from "./HeroFeatures";
+
+function Hero() {
   return (
-    <section>
-      <h1>{title || "Hero Title"}</h1>
-      <p>{subtitle || "Hero subtitle text"}</p>
-      {ctaText && <button>{ctaText}</button>}
+    <section className="max-w-7xl mx-auto px-6 py-16">
+      <HeroContent />
+      <HeroFeatures />
     </section>
   );
 }
