@@ -38,7 +38,7 @@ export default function Testimonials() {
       <h2 className="text-[#CC1E36] text-2xl font-semibold mb-4 text-center">
         Was unsere Kunden sagen
       </h2>
-      <div className="relative overflow-hidden flex items-center justify-center h-[300px]">
+      <div className="relative overflow-hidden flex items-center justify-center h-75">
         {testimonials.map((item, index) => (
           <div
             key={index}
