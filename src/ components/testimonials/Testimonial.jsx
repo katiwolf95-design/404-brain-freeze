@@ -35,6 +35,9 @@ export default function Testimonials() {
       className="relative mx-auto overflow-hidden flex item-center justify-center"
       style={{ width: "1200px", height: "500px" }}
     >
+      <h2 className="text-[#CC1E36] text-2xl font-semibold mb-8 text-center">
+        Was unsere Kunden sagen
+      </h2>
       {testimonials.map((item, index) => (
         <div
           key={index}
