@@ -1,4 +1,4 @@
-import IceGrid from "../ components/ice/IceGrid";
+import IceGrid from "../components/ice/IceGrid";
 
 function IceList() {
   return (
