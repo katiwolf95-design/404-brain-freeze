@@ -1,9 +1,10 @@
 import Navigation from "./Navigation";
+import Logo from "./Logo";
 
 function Header() {
   return (
     <header>
-      <h1>Gelateria Fiorentina</h1>
+      <Logo />  
       <Navigation />
     </header>
   );
