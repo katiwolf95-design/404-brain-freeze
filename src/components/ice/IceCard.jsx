@@ -1,14 +1,17 @@
-import mango from "../../assets/images/mango.png"
-
-
-function IceCard({ name, category = [], description }) {
+function IceCard({ image, name, category = [], description }) {
   return (
     <article
-     className="flex flex-col justify-center items-center gap-3 rounded-4xl bg-[#FFF3F1] py-4 px-8 w-xs h-110 shadow-[4px_4px_4px_rgba(0,0,0,0.25)]"
-    >
-        <img src={mango} alt="" className="w-1/2"/>
+     className="
+     flex flex-col justify-center items-center gap-3 
+     py-6 px-4 w-xs min-h-105
+     bg-[#f5e7e4] rounded-4xl shadow-[4px_4px_4px_rgba(0,0,0,0.25)]
+     hover:scale-105 hover:shadow-[8px_8px_12px_rgba(0,0,0,0.25)] transition transform
+     "> 
+        <div className="w-full h-52 flex items-center justify-center">
+            <img src={image} alt="" className="max-h-full object-contain"/>
+        </div>
         <h3
-         className="font-body text-xl font-semibold tracking-wide"
+         className="font-body text-xl tracking-wider"
         >
             {name || "Ice Name"}
         </h3>
@@ -16,7 +19,7 @@ function IceCard({ name, category = [], description }) {
             {category.map((category) => (
                 <span
                  key={category}
-                 className="bg-red-400 font-body text-white px-3 py-1 rounded-full text-md"
+                 className="bg-red-400 font-body text-white px-3 py-1 rounded-full text-md shadow-[2px_2px_4px_rgba(0,0,0,0.25)]"
                 >
                     {category || ""}
                 </span>

@@ -4,76 +4,87 @@
     "name": "Mango-Maracuja",
     "description": "Exotisches Sorbet aus sonnengereifter Mango und frischer Maracuja",
     "category": ["Sorbet", "Vegan", "Fruchtig"],
-    "image": "/mango-maracuja.jpg"
+    "image": "/images/ice/mango-maracuja.png",
+    "favorite": false
   },
   {
     "slug": "himbeer-sorbet",
     "name": "Himbeer Sorbet",
     "description": "Intensiv fruchtiges Sorbet aus sonnengereiften Himbeeren – herrlich erfrischend",
     "category": ["Sorbet", "Vegan", "Fruchtig"],
-    "image": "/himbeer-sorbet.jpg"
+    "image": "/images/ice/himbeer-sorbet.png",
+    "favorite": false
   },
   {
     "slug": "salty-caramel",
     "name": "Salty Caramel",
     "description": "Samtiges Karamelleis mit Fleur de Sel und knackigen Toffee-Stückchen",
-    "category": ["Milch", "Süß & Salzig"],
-    "image": "/salty-caramel.jpg"
+    "category": ["Milch", "Süß & Salzig", "Trend"],
+    "image": "/images/ice/salty-caramel.png",
+    "favorite": true
   },
   {
     "slug": "lavendel-honig",
     "name": "Lavendel-Honig",
     "description": "Florales Eis mit mildem Blütenhonig und einer feinen Lavendelnote",
     "category": ["Milch", "Blumig", "Gourmet"],
-    "image": "/lavendel-honig.jpg"
+    "image": "/images/ice/lavendel-honig.png",
+    "favorite": false
   },
   {
     "slug": "pistazie",
     "name": "Pistazie",
     "description": "Cremige sizilianische Pistazie, täglich frisch gemahlen",
     "category": ["Milch", "Nuss", "Klassiker"],
-    "image": "/pistazie.jpg"
+    "image": "/images/ice/pistazie.png",
+    "favorite": false
   },
   {
     "slug": "himbeer-white-choc",
     "name": "Himbeer White Choc",
     "description": "Fruchtige Himbeere trifft auf cremige weiße Schokolade",
     "category": ["Milch", "Fruchtig", "Schoko"],
-    "image": "/himbeer-white-choc.jpg"
+    "image": "/images/ice/himbeer-white-choc.png",
+    "favorite": false
   },
   {
     "slug": "cloudy-berry-dream",
     "name": "Cloudy Berry Dream",
     "description": "Zartes Vanilleeis mit einem Swirl aus Himbeersahne und knackigen Blaubeersplittern",
-    "category": ["Fruchtig", "Trend"],
-    "image": "/cloudy-berry-dream.jpg"
+    "category": ["Fruchtig", "Trend", "Milch"],
+    "image": "/images/ice/cloudy-berry-dream.png",
+    "favorite": false
   },
   {
     "slug": "cookie-dough",
     "name": "Cookie Dough",
     "description": "Cremiges Vanilleeis mit soften Keksteigstückchen und Schokodrops",
-    "category": ["Milch", "Klassiker"],
-    "image": "/cookie-dough.jpg"
+    "category": ["Milch", "Klassiker", "Schoko"],
+    "image": "/images/ice/cookie-dough.png",
+    "favorite": false
   },
   {
     "slug": "erdbeer-basilikum",
     "name": "Erdbeer Basilikum",
     "description": "Süße Erdbeeren mit einem Hauch frischem Basilikum – überraschend harmonisch",
     "category": ["Sorbet", "Vegan", "Fruchtig"],
-    "image": "/erdbeer-basilikum.jpg"
+    "image": "/images/ice/erdbeer-basilikum.png",
+    "favorite": true
   },
   {
     "slug": "matcha",
     "name": "Matcha",
     "description": "Fein-herbes Grüntee-Eis aus hochwertigem japanischen Bio-Matcha",
     "category": ["Milch", "Trend", "Exotisch"],
-    "image": "/matcha.jpg"
+    "image": "/images/ice/matcha.png",
+    "favorite": true
   },
   {
     "slug": "vanille-himbeer-swirl",
     "name": "Vanille Himbeer Swirl",
     "description": "Cremiges Vanilleeis mit zartem Himbeer-Swirl und knusprigen Pistaziensplittern",
     "category": ["Milch", "Fruchtig", "Nuss"],
-    "image": "/vanille-himbeer-swirl.jpg"
+    "image": "/images/ice/vanille-himbeer-swirl.png",
+    "favorite": false
   }
 ]

@@ -1,4 +1,5 @@
 import Hero from "../components/hero/Hero";
+import IcePreview from "../components/ice/IcePreview";
 import Testimonials from "../components/testimonials/Testimonial";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
         subtitle="Authentic Italian ice cream"
         ctaText="Discover flavors"
       />
+      <IcePreview />
       <Testimonials />
     </>
   );
