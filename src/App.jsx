@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Header />
-      <AppRouter />
+      <main className="pt-24">
+        <AppRouter />
+      </main>
       <Footer />  
     </>
   )
