@@ -21,7 +21,7 @@ function HeroContent() {
           Für echte Genussmomente.
         </p>
 
-        <button className="bg-[#57974D] text-white px-7 py-3 rounded-full font-medium hover:bg-green-700 transition shadow-md">
+        <button className="bg-[#57974D] text-white text-xs px-7 py-3 rounded-full font-medium hover:bg-green-700 transition shadow-md">
           Unsere Sorten entdecken
         </button>
          <HeroFeatures />
