@@ -1,5 +1,12 @@
 @import 'tailwindcss';
+@theme {
+  --font-headline: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}
 
 body {
-    @apply bg-[#FFFDFB];
+    @apply bg-[#f7f4f2];
+    font-family: 'Poppins', sans-serif; 
   }
+
+
