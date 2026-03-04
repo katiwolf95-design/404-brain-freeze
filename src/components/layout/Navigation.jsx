@@ -4,7 +4,7 @@ function Navigation() {
       <ul>
         <li>Home</li>
         <li>Ice List</li>
-        <li>About</li>
+        <li><a href="#about">About</a></li>
       </ul>
     </nav>
   );
