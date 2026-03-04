@@ -3,7 +3,11 @@ import heroIce from "../../assets/images/hero-ice.png";
 function HeroImage() {
     return (    
         <div>
-            <img src={heroIce} alt="Hero Ice Cream" />
+            <img
+            src={heroIce}
+            alt="Ice Cream"
+            className="w-auto max-h-133.75 object-contain"
+            />
         </div>
     );
 }
