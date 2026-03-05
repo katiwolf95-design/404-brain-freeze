@@ -1,11 +1,11 @@
 import HeroContent from "./HeroContent";
-import HeroFeatures from "./HeroFeatures";
 
 function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
-      <HeroContent />
-      <HeroFeatures />
+    <section className="relative bg-[#f7f4f2] overflow-hidden py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        <HeroContent />
+      </div>
     </section>
   );
 }

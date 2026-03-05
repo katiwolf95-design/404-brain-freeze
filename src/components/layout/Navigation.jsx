@@ -1,10 +1,29 @@
+import { Link } from "react-router-dom";
+
 function Navigation() {
   return (
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>Ice List</li>
-        <li><a href="#about">About</a></li>
+      <ul className="flex gap-8 text-gray-800 font-semibold cursor-pointer">
+        <li>
+          <Link className="hover:text-[#CC1E36] transition-colors" to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:text-[#CC1E36] transition-colors" to="/about">
+            Über uns
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:text-[#CC1E36] transition-colors" to="/ice">
+            Beliebte Sorten
+          </Link>
+        </li>
+        <li>
+          <Link className="hover:text-[#CC1E36] transition-colors" to="/kontakt">
+            Kontakt
+          </Link>
+        </li>
       </ul>
     </nav>
   );
