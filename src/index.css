@@ -1,15 +1,16 @@
 @import 'tailwindcss';
-@theme {
-  --font-headline: "Playfair Display", serif;
-  --font-body: "Poppins", sans-serif;
-}
 
 body {
-    @apply bg-[#f7f4f2];
-    font-family: 'Poppins', sans-serif; 
-  }
+  @apply bg-[#f7f4f2];
+  font-family: 'Poppins', sans-serif;
+
+  /* background vector */
+  background-image: url('/Vector.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: auto 100%;
+}
 
 html {
   scroll-behavior: smooth;
 }
-
