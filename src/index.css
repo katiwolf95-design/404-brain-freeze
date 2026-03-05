@@ -10,10 +10,10 @@ body {
   font-family: 'Poppins', sans-serif;
 
   /* background vector */
-  background-image: url('/Vector.png');
+  background-image: url('/Vector.svg');
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 html {
