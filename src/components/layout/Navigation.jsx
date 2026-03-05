@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav>
+    <nav> 
       <ul className="flex gap-8 text-gray-800 font-semibold cursor-pointer">
         <li>
           <Link className="hover:text-[#CC1E36] transition-colors" to="/">
@@ -10,9 +10,9 @@ function Navigation() {
           </Link>
         </li>
         <li>
-          <Link className="hover:text-[#CC1E36] transition-colors" to="/about">
+          <a className="hover:text-[#CC1E36] transition-colors" href="/#about">
             Über uns
-          </Link>
+          </a>
         </li>
         <li>
           <Link className="hover:text-[#CC1E36] transition-colors" to="/ice">

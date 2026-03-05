@@ -1,6 +1,7 @@
 import Hero from "../components/hero/Hero";
 import IcePreview from "../components/ice/IcePreview";
 import Testimonials from "../components/testimonials/Testimonial";
+import About from "../components/about/About";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         ctaText="Discover flavors"
       />
       <IcePreview />
+      <About />
       <Testimonials />
     </>
   );
