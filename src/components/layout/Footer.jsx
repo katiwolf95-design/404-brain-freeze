@@ -6,23 +6,35 @@ function Footer() {
   return (
     <footer className="bg-[#f9ece9] text-[#D11F37]">
       <Container>
-        <div className="h-50 flex items-center">
-          
-          {/* Left */}
-          <div className="flex-1">
+        <div className="h-50 flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 text-center md:text-left">
+
+          {/* Copyright */}
+          <div>
             <p>© 2026 Gelato Fiorentina</p>
           </div>
 
-          {/* Center */}
-          <div className="flex-1 flex justify-center gap-6">
-            <img src={instagramIcon} alt="Instagram"   className="w-6 h-6 cursor-pointer hover:opacity-80 transition-opacity duration-200"/>
-            <img src={tiktokIcon} alt="TikTok"   className="w-6 h-6 cursor-pointer hover:opacity-80 transition-opacity duration-200"/>
+          {/* Social icons */}
+          <div className="flex gap-6">
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              className="w-6 h-6 cursor-pointer hover:opacity-80 transition-opacity"
+            />
+            <img
+              src={tiktokIcon}
+              alt="TikTok"
+              className="w-6 h-6 cursor-pointer hover:opacity-80 transition-opacity"
+            />
           </div>
 
-          {/* Right */}
-          <div className="flex-1 flex justify-end gap-6">
-            <a href="/datenschutz">Datenschutz</a>
-            <a href="/impressum">Impressum</a>
+          {/* Links */}
+          <div className="flex gap-6">
+            <a href="/datenschutz" className="hover:underline">
+              Datenschutz
+            </a>
+            <a href="/impressum" className="hover:underline">
+              Impressum
+            </a>
           </div>
 
         </div>
