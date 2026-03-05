@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TestimonialCard from "./TestimonialCard";
+import SectionTitle from "../ui/SectionTitle";
 
 const testimonials = [
   {
@@ -35,10 +36,9 @@ export default function Testimonials() {
       className="mx-auto"
       style={{ width: "1200px", height: "500px" }}
     >
-      <h2 className="text-[#CC1E36] text-2xl font-semibold mb-4 text-center">
-        Was unsere Kunden sagen
-      </h2>
-      <div className="relative overflow-hidden flex items-center justify-center h-75">
+      <SectionTitle title={"Was unsere Kunden sagen"}/>
+
+      <div className="relative overflow-hidden flex items-center justify-center h-75 mt-4">
         {testimonials.map((item, index) => {
           
           const position =

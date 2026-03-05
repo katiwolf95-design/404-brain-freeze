@@ -1,4 +1,5 @@
 import iceData from "../../data/iceData.json";
+import SectionTitle from "../ui/SectionTitle";
 import Button from "../ui/Button";
 
 
@@ -7,8 +8,8 @@ function IcePreview() {
         <section 
          className="flex flex-col items-center gap-8 mb-20 w-full max-w-7xl mx-auto px-6 "
         >
-            <h2 className="font-headline text-3xl text-[#CC1E36] text-center ">
-                Soft Serve, Hard Crush</h2>
+            <SectionTitle title={"Soft Serve, Hard Crush"}/>
+
             <div 
             className="
              grid grid-cols-1 md:grid-cols-3 gap-6 w-full py-6
