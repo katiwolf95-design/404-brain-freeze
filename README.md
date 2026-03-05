@@ -4,7 +4,7 @@ Dieses Projekt entsteht im Rahmen von Modul 3 (React) als Gruppenprojekt.
 Ziel ist es, eine moderne Website für den familiengeführten Eisladen Gelateria Fiorentina zu entwickeln.
 
 Die Seite präsentiert den Laden, zeigt Kundenstimmen und gibt einen Überblick über die verfügbaren Eissorten.
----
+
 ## Tech Stack
 - React
 - Vite
