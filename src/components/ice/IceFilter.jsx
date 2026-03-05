@@ -4,7 +4,7 @@ function IceFilter({ selectedTag, setSelectedTag}) {
     const tags = ["All", "Sorbet", "Vegan", "Fruchtig", "Milch", "Süß & Salzig", "Blumig", "Gourmet", "Nuss", "Klassiker", "Schoko", "Trend", "Exotisch"];
 
     return (
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div className="flex flex-wrap gap-3 mb-8">
             {tags.map(tag => (
                <button
                 key={tag}

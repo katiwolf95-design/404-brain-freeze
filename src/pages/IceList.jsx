@@ -13,7 +13,7 @@ function IceList() {
       : iceData.filter(ice => ice.category.includes(selectedTag));
 
     return (
-    <div className="max-w-7xl mx-auto px-6">
+    <div className="max-w-7xl mx-auto px-6 mt-12 mb-40">
       <h1 className="font-headline text-4xl text-[#CC1E36] mb-8 self-start">Unsere Sorten</h1>
       <IceFilter selectedTag={selectedTag} setSelectedTag={setSelectedTag}/>
       <IceGrid iceData={filteredIce}/>
