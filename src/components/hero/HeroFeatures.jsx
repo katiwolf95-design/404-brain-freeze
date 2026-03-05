@@ -17,7 +17,7 @@ function HeroFeatures() {
 
 
      {/* Pink box */}
-<div className="bg-[#f1e7e2] rounded-3xl px-10 pt-20 pb-10 shadow-sm">
+<div className="bg-[#f9ece9] rounded-3xl px-10 pt-20 pb-10 shadow-sm">
   <div className="grid md:grid-cols-3 gap-10">
     
     <div className="flex justify-center">

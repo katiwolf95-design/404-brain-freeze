@@ -4,7 +4,7 @@ import tiktokIcon from "../../assets/icons/TikTok.svg";
 
 function Footer() {
   return (
-    <footer className="bg-[#f1e7e2] text-[#D11F37]">
+    <footer className="bg-[#f9ece9] text-[#D11F37]">
       <Container>
         <div className="h-50 flex items-center">
           
