@@ -1,5 +1,6 @@
 import HeroFeatures from "./HeroFeatures";
 import HeroImage from "./HeroImages";
+import ButtonHero from "../ui/ButtonHero";
 
 function HeroContent() {
   return (
@@ -20,11 +21,8 @@ function HeroContent() {
           Täglich frisch zubereitet. Mit echten Zutaten.  
           Für echte Genussmomente.
         </p>
-
-        <button className="bg-[#57974D] text-white text-xs px-7 py-3 rounded-full font-medium hover:bg-green-700 transition shadow-md">
-          Unsere Sorten entdecken
-        </button>
-         <HeroFeatures />
+        <ButtonHero>{"Unsere Sorten entdecken"}</ButtonHero>
+        <HeroFeatures />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import iceData from "../../data/iceData.json";
+import Button from "../ui/Button";
 
 
 function IcePreview() {
@@ -29,11 +30,7 @@ function IcePreview() {
                     </div>
                 ))}
             </div>
-            <button
-             className="bg-[#85B37E] text-white text-md tracking-wide px-10 py-2 rounded-full shadow-[2px_2px_4px_rgba(0,0,0,0.25)] hover:scale-105 hover:bg-[#55854d]"
-            >
-                Jetzt alle Sorten entdecken
-            </button>
+            <Button>{"Jetzt alle Sorten entdecken"}</Button>
         </section>
     )
 }

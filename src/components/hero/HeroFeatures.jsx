@@ -22,19 +22,19 @@ function HeroFeatures() {
     
     <div className="flex justify-center">
       <p className="font-medium text-gray-700 text-center max-w-45">
-        Handgemacht täglich
+        täglich hausgemacht
       </p>
     </div>
 
     <div className="flex justify-center">
       <p className="font-medium text-gray-700 text-center max-w-55">
-        Vegane & klassische Sorten
+        vegane & klassische Sorten
       </p>
     </div>
 
     <div className="flex justify-center">
       <p className="font-medium text-gray-700 text-center max-w-50">
-        Italienische Rezepturen
+        italienische Rezepturen
       </p>
     </div>
 
