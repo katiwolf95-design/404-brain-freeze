@@ -4,8 +4,7 @@ import feature3 from "../../assets/images/feature-image3.png";
 
 function HeroFeatures() {
   return (
-    <div className="mt-24 max-w-5xl mx-auto px-6">
-
+    <div className="mt-24 max-w-5xl mx-auto">
       {/* Pink Box */}
       <div className="bg-[#f9ece9] rounded-3xl px-8 pt-16 lg:pt-24 pb-10 shadow-sm relative">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 text-center relative z-10">
