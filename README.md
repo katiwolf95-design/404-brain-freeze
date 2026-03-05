@@ -1,16 +1,32 @@
-# React + Vite
+# Gelateria Fiorentina – React Projekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dieses Projekt entsteht im Rahmen von Modul 3 (React) als Gruppenprojekt.
+Ziel ist es, eine moderne Website für den familiengeführten Eisladen Gelateria Fiorentina zu entwickeln.
 
-Currently, two official plugins are available:
+Die Seite präsentiert den Laden, zeigt Kundenstimmen und gibt einen Überblick über die verfügbaren Eissorten.
+---
+## Tech Stack
+- React
+- Vite
+- React Router
+- Tailwind CSS
+- JSON als Datenquelle
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Hero Section mit Call-to-Action
+- Testimonials
+- Übersicht der Eissorten
+- Dynamische Daten aus einer JSON-Datei
 
-## React Compiler
+## Projekt starten
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Danach läuft die Seite lokal unter:
 
-## Expanding the ESLint configuration
+http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Kontext
+Dieses Projekt dient dazu, praktische Erfahrung mit React-Komponenten, Routing und dynamischen Daten im Rahmen eines Teamprojekts zu sammeln.

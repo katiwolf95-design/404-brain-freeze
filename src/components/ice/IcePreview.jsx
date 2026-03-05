@@ -31,7 +31,7 @@ function IcePreview() {
                     </div>
                 ))}
             </div>
-            <Button>{"Jetzt alle Sorten entdecken"}</Button>
+            <Button to="/ice">Jetzt alle Sorten entdecken</Button>
         </section>
     )
 }

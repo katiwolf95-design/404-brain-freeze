@@ -21,7 +21,7 @@ function HeroContent() {
           Täglich frisch zubereitet. Mit echten Zutaten.  
           Für echte Genussmomente.
         </p>
-        <ButtonHero>{"Unsere Sorten entdecken"}</ButtonHero>
+        <ButtonHero to={"/ice"}>Unsere Sorten entdecken</ButtonHero>
         <HeroFeatures />
       </div>
     </div>
