@@ -32,20 +32,11 @@ export default function About() {
 
         </div>
       </div>
-<<<<<<< HEAD
-      
-      <div className="mt-32">
-        <h2 className="text-[#CC1E36] text-3xl font-semibold mt-20 mb-12 text-center">
-          Unsere Philosophie
-        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-=======
       <div>
         <SectionTitle title={"Unsere Philosophie"}/>
   
         <div className="grid md:grid-cols-3 gap-10 mt-12 justify-items-center">
->>>>>>> origin/main
 
           <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">🍦</div>
@@ -69,10 +60,6 @@ export default function About() {
     </section>
 
     );
-
-
-    
-  
 }
 
   
