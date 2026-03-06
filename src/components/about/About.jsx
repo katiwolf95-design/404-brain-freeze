@@ -27,37 +27,35 @@ export default function About() {
           </p>
 
           <div className="space-y-2 mt-6">
-
-            
             <p>🌱 vegane Sorten verfügbar</p>
-
           </div>
 
         </div>
       </div>
-      <div>
+      
+      <div className="mt-32">
         <h2 className="text-[#CC1E36] text-3xl font-semibold mt-20 mb-12 text-center">
           Unsere Philosophie
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
 
-          <div className="space-y-4">
+          <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">🍦</div>
             <h3 className="text-xl font-semibold">Frisch</h3>
-            <p>Täglich vor Ort hergestellt.</p>
+            <p className="text-gray-600">Täglich vor Ort hergestellt.</p>
           </div>
 
-          <div className="space-y-4">
+          <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">🇮🇹</div>
             <h3 className="text-xl font-semibold">Tradition</h3>
-            <p>Original italienische Rezepturen.</p>
+            <p className="text-gray-600">Original italienische Rezepturen.</p>
           </div>
 
-          <div className="space-y-4">
+          <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">❤️</div>
             <h3 className="text-xl font-semibold">Familie</h3>
-            <p>Ein familiengeführter Betrieb.</p>
+            <p className="text-gray-600">Ein familiengeführter Betrieb.</p>
           </div>
         </div>
       </div>

@@ -21,24 +21,29 @@ const testimonials = [
 
 export default function Testimonials() {
   const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
 
   useEffect(() => {
+    if (paused) return;
+
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % testimonials.length);
     }, 6000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [paused]);
 
   return (
     <section
-      className="mx-auto"
-      style={{ width: "1200px", height: "500px" }}
+      className="mx-auto max-w-[1200px] px-4 mt-24"
     >
-      <h2 className="text-[#CC1E36] text-2xl font-semibold mb-4 text-center">
+      <h2 className="text-[#CC1E36] text-2xl md:text-3xl font-semibold mb-8 text-center">
         Was unsere Kunden sagen
       </h2>
-      <div className="relative overflow-hidden flex items-center justify-center h-75">
+      <div className="relative flex items-center justify-center min-h-[380px] md:min-h-[420px]"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+      >
         {testimonials.map((item, index) => {
           
           const position =
@@ -54,11 +59,11 @@ export default function Testimonials() {
             <div
               key={index}
               className={`
-                absolute transition-all duration-700
+                absolute flex justify-center transition-all duration-700 ease-in-out
 
-                ${position === "center" && "z-20 scale-100"}
-                ${position === "left" && "z-10 -translate-x-40 scale-90 opacity-60"}
-                ${position === "right" && "z-10 translate-x-40 scale-90 opacity-60"}
+                ${position === "center" && "z-20 scale-105 md:scale-100"}
+                ${position === "left" && "hidden md:block z-10 md:-translate-x-60 scale-90 opacity-60"}
+                ${position === "right" && "hidden md:block z-10 md:translate-x-60 scale-90 opacity-60"}
                 ${position === "hidden" && "opacity-0"}
               `}
             >
@@ -69,7 +74,7 @@ export default function Testimonials() {
       </div>
 
       {/* DOTS */}
-      <div className="flex justify-center gap-3 mt-6">
+      <div className="flex justify-center gap-3 mt-3 mb-12">
         {testimonials.map((_, index) => (
           <button
             key={index}

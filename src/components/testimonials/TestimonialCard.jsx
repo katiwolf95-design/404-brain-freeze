@@ -1,8 +1,7 @@
 export default function TestimonialCard({ text, name, image }) {
   return (
     <div
-      className="bg-white rounded-2xl shadow-md p-6 flex items-center gap-6"
-      style={{ width: "615px", height: "250px" }}
+      className="bg-white w-[90%] max-w-[500px] sm:w-[360px] md:w-[615px] h-auto min-h-[200px] mx-auto rounded-xl shadow-xl hover:shadow-2xl transition-shadow p-6"
     >
       <img
         src={image}
