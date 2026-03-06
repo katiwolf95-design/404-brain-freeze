@@ -1,8 +1,6 @@
 import iceData from "../../data/iceData.json";
 import SectionTitle from "../ui/SectionTitle";
 
-
-
 function IcePreview() {
     return (
         <section 
