@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TestimonialCard from "./TestimonialCard";
+import SectionTitle from "../ui/SectionTitle";
 
 const testimonials = [
   {
@@ -44,6 +45,11 @@ export default function Testimonials() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
+
+      <SectionTitle title={"Was unsere Kunden sagen"}/>
+
+      <div className="relative overflow-hidden flex items-center justify-center h-75 mt-4">
+
         {testimonials.map((item, index) => {
           
           const position =

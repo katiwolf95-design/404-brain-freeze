@@ -1,4 +1,4 @@
-import heroIce from "../../assets/images/hero-ice.png";
+import heroIce from "../../assets/images/hero-ice-cream.png";
 
 function HeroImage() {
     return (    

@@ -1,12 +1,12 @@
+import SectionTitle from "../ui/SectionTitle";
+
 export default function About() {
   return (
-    <section id="about" className="max-w-[1200px] mx-auto py-20 px-6">
+    <section id="about" className="max-w-300 mx-auto py-20 px-6">
 
-      <h2 className="text-[#CC1E36] text-3xl font-semibold text-center mb-12">
-        Über uns
-      </h2>
+      <SectionTitle title={"Über uns"}/>
 
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid md:grid-cols-2 gap-12 items-center mt-8 mb-20">
 
         <img
           src="/images/gelato-maker.png"
@@ -32,6 +32,7 @@ export default function About() {
 
         </div>
       </div>
+<<<<<<< HEAD
       
       <div className="mt-32">
         <h2 className="text-[#CC1E36] text-3xl font-semibold mt-20 mb-12 text-center">
@@ -39,6 +40,12 @@ export default function About() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+=======
+      <div>
+        <SectionTitle title={"Unsere Philosophie"}/>
+  
+        <div className="grid md:grid-cols-3 gap-10 mt-12 justify-items-center">
+>>>>>>> origin/main
 
           <div className="flex flex-col items-center space-y-4">
             <div className="text-4xl">🍦</div>

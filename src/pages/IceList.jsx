@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import IceGrid from "../components/ice/IceGrid";
 import IceFilter from "../components/ice/IceFilter";
 import iceData from "../data/iceData.json";
@@ -14,7 +13,7 @@ function IceList() {
 
     return (
     <div className="max-w-7xl mx-auto px-6 mt-12 mb-40">
-      <h1 className="font-headline text-4xl text-[#CC1E36] mb-8 self-start">Unsere Sorten</h1>
+      <h1 className="font-headline text-center text-4xl text-[#CC1E36] mb-8 self-start">Unsere Sorten</h1>
       <IceFilter selectedTag={selectedTag} setSelectedTag={setSelectedTag}/>
       <IceGrid iceData={filteredIce}/>
     </div>
