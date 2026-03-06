@@ -35,23 +35,17 @@ export default function Testimonials() {
   }, [paused]);
 
   return (
-    <section
-      className="mx-auto max-w-[1200px] px-4 mt-24"
-    >
-      <h2 className="text-[#CC1E36] text-2xl md:text-3xl font-semibold mb-8 text-center">
-        Was unsere Kunden sagen
-      </h2>
-      <div className="relative flex items-center justify-center min-h-[380px] md:min-h-[420px]"
+    <section className="mx-auto max-w-[1200px] px-4 mt-24">
+
+      <SectionTitle title="Was unsere Kunden sagen" />
+
+      <div
+        className="relative overflow-hidden flex items-center justify-center min-h-[380px] md:min-h-[420px] mt-6"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-
-      <SectionTitle title={"Was unsere Kunden sagen"}/>
-
-      <div className="relative overflow-hidden flex items-center justify-center h-75 mt-4">
-
         {testimonials.map((item, index) => {
-          
+
           const position =
             index === current
               ? "center"
@@ -66,7 +60,6 @@ export default function Testimonials() {
               key={index}
               className={`
                 absolute flex justify-center transition-all duration-700 ease-in-out
-
                 ${position === "center" && "z-20 scale-105 md:scale-100"}
                 ${position === "left" && "hidden md:block z-10 md:-translate-x-60 scale-90 opacity-60"}
                 ${position === "right" && "hidden md:block z-10 md:translate-x-60 scale-90 opacity-60"}
@@ -79,18 +72,18 @@ export default function Testimonials() {
         })}
       </div>
 
-      {/* DOTS */}
-      <div className="flex justify-center gap-3 mt-3 mb-12">
+      <div className="flex justify-center gap-3 mb-12">
         {testimonials.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full transition-all
-              ${index === current ? "bg-[#CC1E36]" : "bg-gray-300"}
-            `}
+            className={`w-3 h-3 rounded-full transition-all ${
+              index === current ? "bg-[#CC1E36]" : "bg-gray-300"
+            }`}
           />
         ))}
       </div>
+
     </section>
   );
 }
