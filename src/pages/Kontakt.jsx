@@ -18,19 +18,19 @@ export default function Kontakt() {
                 }} */
             >
                 {/**CONTAINER */}
-                <div className="max-w-[1200px] mx-auto px-6 md:px-16 py-32">
+                <div className="max-w-[1200px] mx-auto px-6 md:px-16 py-18">
 
                     {/**Title */}
                     <SectionTitle title="Besuchen Sie uns in der Gelateria Fiorentina" />
 
-                    <p className="text-center max-w-[500px] mx-auto mt-6 mb-16 text-gray-600">
+                    <p className="text-center max-w-[500px] mx-auto mt-6 mb-24 text-gray-600">
                         Ob für eine spontane Kugel Eis, ein Treffen mit Freunden
                         oder einfach eine kleine Auszeit – wir freuen uns,
                         Sie in unserer Gelateria begrüßen zu dürfen.
                     </p>
 
                     {/**Adress + MAP */}
-                    <div className="grid md:grid-cols-2 items-center mb-24 gap-16 max-w-[900px] mx-auto md:gap-8">
+                    <div className="grid md:grid-cols-2 items-center mb-40 gap-16 max-w-[900px] mx-auto md:gap-8">
 
                         {/**INFO */}
                         <div className="grid grid-cols-2 md:grid-cols-1 gap-y-8 gap-x-10 text-base md:text-sm md:pl-30">
@@ -72,13 +72,13 @@ export default function Kontakt() {
                     {/**FORM TITLE */}
                     <SectionTitle title="Haben Sie eine süße Nachricht für uns?" />
 
-                    <p className="text-center text-gray-600 mt-6 mb-12">
+                    <p className="text-center text-gray-600 mt-6 mb-24">
                         Ob Lob, Frage oder eine neue Eissorten-Idee –
                         wir freuen uns über jede Nachricht.
                     </p>
 
                     {/**FORM */}
-                    <form className="max-w-[500px] mx-auto space-y-6 mb-24">
+                    <form className="max-w-[500px] mx-auto space-y-6 mb-32">
 
                         <input
                             type="text"
