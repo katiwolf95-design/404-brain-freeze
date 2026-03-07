@@ -1,6 +1,6 @@
 // import Header from "../components/layout/Header";
 
-import ButtonHero from "../components/ui/ButtonHero";
+//import ButtonHero from "../components/ui/ButtonHero";
 import SectionTitle from "../components/ui/SectionTitle";
 
 export default function Kontakt() {   
@@ -33,7 +33,7 @@ export default function Kontakt() {
                     <div className="grid md:grid-cols-2 items-center mb-40 gap-16 max-w-[900px] mx-auto md:gap-8">
 
                         {/**INFO */}
-                        <div className="grid grid-cols-2 md:grid-cols-1 gap-y-8 gap-x-10 text-base md:text-sm md:pl-30">
+                        <div className="grid grid-cols-2 md:grid-cols-1 gap-y-8 gap-x-10 text-base md:text-sm md:pl-32">
 
                             <div>
                                 <p className="text-[#CC1E36] font-semibold mb-1">Adresse</p>
@@ -63,7 +63,7 @@ export default function Kontakt() {
                         <div className="rounded-xl overflow-hidden shadow-lg">
                             <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9708.704188790427!2d13.375299363282329!3d52.530248901153975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMarktplatz%2012%E2%80%A8%2010115%20Berlin!5e0!3m2!1sde!2sde!4v1772792309991!5m2!1sde!2sde"
-                                className="w-full h-[4200px] md:h-[340px]"
+                                className="w-full h-[420px] md:h-[340px]"
                                 loading="lazy"
                             />
                         </div>
@@ -101,7 +101,7 @@ export default function Kontakt() {
                         <div className="flex justify-center">
                             <button className="
                                 w-full bg-[#7EA705] hover:bg-[#6B8F04] text-white 
-                                py-4 rounded-full shadow-lg transition"
+                                py-3 rounded-full shadow-lg transition"
                             > 
                                 Nachricht absenden 
                             </button>
