@@ -2,8 +2,6 @@ import iceData from "../../data/iceData.json";
 import SectionTitle from "../ui/SectionTitle";
 import Button from "../ui/Button";
 
-
-
 function IcePreview() {
     return (
         <section 

@@ -18,22 +18,22 @@ export default function Kontakt() {
                 }} */
             >
                 {/**CONTAINER */}
-                <div className="max-w-[1200px] mx-auto px-24 py-32">
+                <div className="max-w-[1200px] mx-auto px-6 md:px-16 py-18">
 
                     {/**Title */}
                     <SectionTitle title="Besuchen Sie uns in der Gelateria Fiorentina" />
 
-                    <p className="text-center max-w-[500px] mx-auto mt-6 mb-16 text-gray-600">
+                    <p className="text-center max-w-[500px] mx-auto mt-6 mb-24 text-gray-600">
                         Ob für eine spontane Kugel Eis, ein Treffen mit Freunden
                         oder einfach eine kleine Auszeit – wir freuen uns,
                         Sie in unserer Gelateria begrüßen zu dürfen.
                     </p>
 
                     {/**Adress + MAP */}
-                    <div className="grid md:grid-cols-2 items-center mb-32 gap-6 md:gap-8">
+                    <div className="grid md:grid-cols-2 items-center mb-40 gap-16 max-w-[900px] mx-auto md:gap-8">
 
                         {/**INFO */}
-                        <div className="grid grid-cols-2 space-y-8 md:block gap-6 text-base md:text-sm">
+                        <div className="grid grid-cols-2 md:grid-cols-1 gap-y-8 gap-x-10 text-base md:text-sm md:pl-30">
 
                             <div>
                                 <p className="text-[#CC1E36] font-semibold mb-1">Adresse</p>
@@ -63,7 +63,7 @@ export default function Kontakt() {
                         <div className="rounded-xl overflow-hidden shadow-lg">
                             <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9708.704188790427!2d13.375299363282329!3d52.530248901153975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMarktplatz%2012%E2%80%A8%2010115%20Berlin!5e0!3m2!1sde!2sde!4v1772792309991!5m2!1sde!2sde"
-                                className="w-full h-[380px] md:h-[320px]"
+                                className="w-full h-[4200px] md:h-[340px]"
                                 loading="lazy"
                             />
                         </div>
@@ -72,13 +72,13 @@ export default function Kontakt() {
                     {/**FORM TITLE */}
                     <SectionTitle title="Haben Sie eine süße Nachricht für uns?" />
 
-                    <p className="text-center text-gray-600 mt-6 mb-12">
+                    <p className="text-center text-gray-600 mt-6 mb-24">
                         Ob Lob, Frage oder eine neue Eissorten-Idee –
                         wir freuen uns über jede Nachricht.
                     </p>
 
                     {/**FORM */}
-                    <form className="max-w-[500px] mx-auto space-y-6 mb-24">
+                    <form className="max-w-[500px] mx-auto space-y-6 mb-32">
 
                         <input
                             type="text"
