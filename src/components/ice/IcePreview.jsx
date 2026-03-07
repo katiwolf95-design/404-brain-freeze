@@ -1,5 +1,6 @@
 import iceData from "../../data/iceData.json";
 import SectionTitle from "../ui/SectionTitle";
+import Button from "../ui/Button";
 
 function IcePreview() {
     return (
@@ -29,14 +30,7 @@ function IcePreview() {
                     </div>
                 ))}
             </div>
-            
-            <button className="
-                w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-full 
-                shadow-md transition"
-          >
-            Nachricht absenden
-          </button>
-
+            <Button to={"/ice"}>Alle Sorten entdecken</Button>
         </section>
     )
 }
