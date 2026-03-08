@@ -9,7 +9,7 @@ export default function Kontakt() {
             {/* <Header /> */}
 
             <section
-                className="relative py-32"
+                className="relative py-14 md:py-32"
                 /* style={{
                     backgroundImage: "url('/Vector.svg')",
                     backgroundRepeat: "no-repeat",
@@ -30,10 +30,10 @@ export default function Kontakt() {
                     </p>
 
                     {/**Adress + MAP */}
-                    <div className="grid md:grid-cols-[1fr_1.3fr] items-center mb-40 gap-16 max-w-[1100px] mx-auto">
+                    <div className="grid md:grid-cols-[1fr_1.3fr] items-center mb-36 gap-16 md:gap-2 max-w-[1100px] mx-auto">
 
                         {/**INFO */}
-                        <div className="grid grid-cols-2 md:grid-cols-1 gap-8 text-base md:text-sm max-w-[260px] mx-auto">
+                        <div className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-6 text-base md:text-sm w-full max-w-[420px] mx-auto">
 
                             <div>
                                 <p className="text-[#CC1E36] font-semibold mb-1">Adresse</p>
@@ -78,7 +78,7 @@ export default function Kontakt() {
                     </p>
 
                     {/**FORM */}
-                    <form className="max-w-[500px] mx-auto space-y-6 mb-32">
+                    <form className="max-w-[500px] mx-auto space-y-6 mb-58">
 
                         <input
                             type="text"
