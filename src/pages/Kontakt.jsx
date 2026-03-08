@@ -30,10 +30,10 @@ export default function Kontakt() {
                     </p>
 
                     {/**Adress + MAP */}
-                    <div className="grid md:grid-cols-[1fr_1.3fr] items-center mb-36 gap-16 md:gap-2 max-w-[1100px] mx-auto">
+                    <div className="flex justify-center mb-36">
 
                         {/**INFO */}
-                        <div className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-6 text-base md:text-sm w-full max-w-[420px] mx-auto">
+                        <div className="grid md:grid-cols-[280px_minmax(0,600px)] items-start gap-x-2 gap-y-10 ml-">
 
                             <div>
                                 <p className="text-[#CC1E36] font-semibold mb-1">Adresse</p>
@@ -60,10 +60,10 @@ export default function Kontakt() {
                         </div>
 
                         {/**MAP */}
-                        <div className="rounded-xl overflow-hidden shadow-lg max-w-full">
+                        <div className="rounded-xl overflow-hidden shadow-lg w-[600px] flex-grow">
                             <iframe 
                                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9708.704188790427!2d13.375299363282329!3d52.530248901153975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMarktplatz%2012%E2%80%A8%2010115%20Berlin!5e0!3m2!1sde!2sde!4v1772792309991!5m2!1sde!2sde"
-                                className="w-full h-[420px]"
+                                className="w-full h-[420px] md:h-[420px]"
                                 loading="lazy"
                             />
                         </div>
