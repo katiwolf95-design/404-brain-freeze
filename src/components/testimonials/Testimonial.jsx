@@ -59,7 +59,7 @@ export default function Testimonials() {
             <div
               key={index}
               className={`
-                absolute flex justify-center transition-all duration-700 ease-in-out
+                absolute flex justify-center transition-all duration-600 ease-in-out
                 ${position === "center" && "z-20 scale-105 md:scale-100"}
                 ${position === "left" && "hidden md:block z-10 md:-translate-x-60 scale-90 opacity-60"}
                 ${position === "right" && "hidden md:block z-10 md:translate-x-60 scale-90 opacity-60"}
