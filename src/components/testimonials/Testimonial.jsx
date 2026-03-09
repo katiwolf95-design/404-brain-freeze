@@ -35,12 +35,12 @@ export default function Testimonials() {
   }, [paused]);
 
   return (
-    <section className="mx-auto max-w-[1200px] px-4 mt-24">
+    <section className="mx-auto max-w-[1200px] px-4 mt-20">
 
       <SectionTitle title="Was unsere Kunden sagen" />
 
       <div
-        className="relative overflow-hidden flex items-center justify-center min-h-[380px] md:min-h-[420px] mt-6"
+        className="relative overflow-hidden flex items-center justify-center min-h-[380px] md:min-h-[420px]"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
