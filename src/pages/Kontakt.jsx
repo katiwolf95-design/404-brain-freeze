@@ -30,10 +30,11 @@ export default function Kontakt() {
                     </p>
 
                     {/**Adress + MAP */}
-                    <div className="flex justify-center mb-36">
+                    <div className="grid md:grid-cols-[auto_1fr] items-start mb-36 gap-x-12 gap-y-10 w-fit mx-auto">
+
 
                         {/**INFO */}
-                        <div className="grid md:grid-cols-[280px_minmax(0,600px)] items-start gap-x-2 gap-y-10 ml-">
+                        <div className="grid grid-cols-2 md:grid-cols-1 gap-x-8 gap-y-6 text-base md:text-sm w-full md:w-[280px]">
 
                             <div>
                                 <p className="text-[#CC1E36] font-semibold mb-1">Adresse</p>
